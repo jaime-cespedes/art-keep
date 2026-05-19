@@ -1,0 +1,87 @@
+{
+  "parametros": {
+    "vel_avance": 0.8,
+    "vel_giro": 0.4,
+    "umbral_distancia": 0.3,
+    "umbral_angulo": 0.08,
+    "tiempo_parada": 4.0,
+    "margen_paredes": 0.4,
+    "umbral_punto": 0.2,
+    "hub_exterior": [0.0, -12.5]
+  },
+
+  "salas": [
+    {
+      "id": 1,
+      "nombre": "Sala 1",
+      "epoca": "Renacimiento",
+      "limites": {
+        "x_min_pared": -5.1,
+        "x_max_pared": 5.07,
+        "y_min_pared": -5.06998,
+        "y_max_pared": 4.83002
+      },
+      "puerta": {
+        "centro": [0.02003, -5.06998],
+        "fuera": [0.02003, -6.10],
+        "dentro": [0.02003, -4.20]
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Sala 2",
+      "epoca": "Arte moderno",
+      "limites": {
+        "x_min_pared": 14.87,
+        "x_max_pared": 25.0,
+        "y_min_pared": -24.9,
+        "y_max_pared": -15.01
+      },
+      "puerta": {
+        "centro": [19.105, -15.01],
+        "fuera": [19.105, -13.90],
+        "dentro": [19.105, -16.10]
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Sala 3",
+      "epoca": "Postimpresionismo y Romanticismo",
+      "limites": {
+        "x_min_pared": -25.01,
+        "x_max_pared": -8.65,
+        "y_min_pared": -24.84,
+        "y_max_pared": -14.89
+      },
+      "puerta": {
+        "centro": [-15.08995, -14.98],
+        "fuera": [-15.08995, -13.80],
+        "dentro": [-15.08995, -16.10]
+      }
+    }
+  ],
+
+  "cuadros": [
+    { "id": 1, "nombre": "Aurora clásica", "descripcion": "Obra equilibrada y armoniosa.", "sala": 1, "x": 4.92, "y": 1.89 },
+    { "id": 2, "nombre": "Luz y sombra", "descripcion": "Contraste entre luz y oscuridad.", "sala": 1, "x": 4.92, "y": -2.82 },
+    { "id": 3, "nombre": "Jardín de primavera", "descripcion": "Paisaje natural tranquilo.", "sala": 1, "x": 2.47, "y": 4.66 },
+    { "id": 4, "nombre": "Horizonte dorado", "descripcion": "Escena luminosa.", "sala": 1, "x": -2.89, "y": 4.66 },
+    { "id": 5, "nombre": "Retrato sereno", "descripcion": "Retrato calmado.", "sala": 1, "x": -4.96, "y": 2.84 },
+    { "id": 6, "nombre": "Memoria azul", "descripcion": "Tonos fríos y evocadores.", "sala": 1, "x": -4.96, "y": -2.82 },
+
+    { "id": 7, "nombre": "Geometría interior", "descripcion": "Formas abstractas.", "sala": 2, "x": 15.04, "y": -17.53 },
+    { "id": 8, "nombre": "Ciudad abstracta", "descripcion": "Movimiento urbano.", "sala": 2, "x": 15.04, "y": -21.95 },
+    { "id": 9, "nombre": "Ecos del color", "descripcion": "Juego cromático.", "sala": 2, "x": 17.83, "y": -24.74 },
+    { "id": 10, "nombre": "Ritmo moderno", "descripcion": "Dinamismo visual.", "sala": 2, "x": 22.21, "y": -24.74 },
+    { "id": 11, "nombre": "Reflejo urbano", "descripcion": "Escena moderna.", "sala": 2, "x": 24.89, "y": -21.95 },
+    { "id": 12, "nombre": "Tiempo suspendido", "descripcion": "Concepto del tiempo.", "sala": 2, "x": 24.89, "y": -17.25 },
+
+    { "id": 13, "nombre": "Bruma romántica", "descripcion": "Ambiente melancólico.", "sala": 3, "x": -8.8, "y": -17.54 },
+    { "id": 14, "nombre": "Montaña silenciosa", "descripcion": "Paisaje sereno.", "sala": 3, "x": -8.8, "y": -21.45 },
+    { "id": 15, "nombre": "Nocturno profundo", "descripcion": "Escena nocturna.", "sala": 3, "x": -12.66, "y": -24.74 },
+    { "id": 16, "nombre": "Camino antiguo", "descripcion": "Ruta clásica.", "sala": 3, "x": -20.72, "y": -24.74 },
+    { "id": 17, "nombre": "Luz del crepúsculo", "descripcion": "Luz suave.", "sala": 3, "x": -24.89, "y": -21.95 },
+    { "id": 18, "nombre": "Viento del norte", "descripcion": "Movimiento natural.", "sala": 3, "x": -24.89, "y": -17.45 },
+    { "id": 19, "nombre": "Silencio del valle", "descripcion": "Profundidad tranquila.", "sala": 3, "x": -20.32, "y": -15.24 }
+  ]
+}

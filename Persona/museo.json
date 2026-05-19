@@ -1,0 +1,602 @@
+{
+  "parametros": {
+    "vel_avance": 0.45,
+    "vel_giro": 0.35,
+    "umbral_distancia": 0.3,
+    "umbral_angulo": 0.08,
+    "tiempo_parada": 4.0,
+    "margen_paredes": 0.65,
+    "umbral_punto": 0.12,
+    "hub_exterior": [
+      -0.25,
+      -11.55
+    ]
+  },
+  "rutas_desde_hub": {
+    "1": {
+      "ida": [
+        {
+          "id": "sala1_pasillo_ida_1",
+          "punto": [
+            -0.25,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo central"
+        },
+        {
+          "id": "sala1_pasillo_ida_2",
+          "punto": [
+            -0.25,
+            -8.3
+          ],
+          "descripcion": "Centro pasillo hacia Sala 1"
+        },
+        {
+          "id": "sala1_puerta_fuera_ida",
+          "punto": [
+            -0.25,
+            -6.1
+          ],
+          "descripcion": "Centro exterior puerta Sala 1"
+        },
+        {
+          "id": "sala1_puerta_centro_ida",
+          "punto": [
+            -0.25,
+            -5.06998
+          ],
+          "descripcion": "Centro puerta Sala 1"
+        },
+        {
+          "id": "sala1_puerta_dentro_ida",
+          "punto": [
+            -0.25,
+            -4.2
+          ],
+          "descripcion": "Centro interior puerta Sala 1"
+        }
+      ],
+      "vuelta": [
+        {
+          "id": "sala1_puerta_dentro_vuelta",
+          "punto": [
+            -0.25,
+            -4.2
+          ],
+          "descripcion": "Centro interior puerta Sala 1"
+        },
+        {
+          "id": "sala1_puerta_centro_vuelta",
+          "punto": [
+            -0.25,
+            -5.06998
+          ],
+          "descripcion": "Centro puerta Sala 1"
+        },
+        {
+          "id": "sala1_puerta_fuera_vuelta",
+          "punto": [
+            -0.25,
+            -6.1
+          ],
+          "descripcion": "Centro exterior puerta Sala 1"
+        },
+        {
+          "id": "sala1_pasillo_vuelta_1",
+          "punto": [
+            -0.25,
+            -8.3
+          ],
+          "descripcion": "Centro vuelta desde Sala 1"
+        },
+        {
+          "id": "sala1_pasillo_vuelta_2",
+          "punto": [
+            -0.25,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo central"
+        }
+      ]
+    },
+    "2": {
+      "ida": [
+        {
+          "id": "sala2_pasillo_horizontal_ida_1",
+          "punto": [
+            4.1,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo este"
+        },
+        {
+          "id": "sala2_pasillo_horizontal_ida_2",
+          "punto": [
+            10.4,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo este"
+        },
+        {
+          "id": "sala2_pasillo_horizontal_ida_3",
+          "punto": [
+            16.7,
+            -11.55
+          ],
+          "descripcion": "Centro antes de bajada Sala 2"
+        },
+        {
+          "id": "sala2_alineacion_vertical_ida",
+          "punto": [
+            18.35,
+            -11.55
+          ],
+          "descripcion": "Centro alineacion vertical Sala 2"
+        },
+        {
+          "id": "sala2_bajada_ida_1",
+          "punto": [
+            18.35,
+            -13.2
+          ],
+          "descripcion": "Centro bajada Sala 2"
+        },
+        {
+          "id": "sala2_bajada_ida_2",
+          "punto": [
+            18.35,
+            -14.35
+          ],
+          "descripcion": "Centro exterior puerta Sala 2"
+        },
+        {
+          "id": "sala2_puerta_centro_ida",
+          "punto": [
+            18.35,
+            -15.01
+          ],
+          "descripcion": "Centro puerta Sala 2"
+        },
+        {
+          "id": "sala2_puerta_dentro_ida",
+          "punto": [
+            18.35,
+            -16.1
+          ],
+          "descripcion": "Centro interior puerta Sala 2"
+        }
+      ],
+      "vuelta": [
+        {
+          "id": "sala2_puerta_dentro_vuelta",
+          "punto": [
+            18.35,
+            -16.1
+          ],
+          "descripcion": "Centro interior puerta Sala 2"
+        },
+        {
+          "id": "sala2_puerta_centro_vuelta",
+          "punto": [
+            18.35,
+            -15.01
+          ],
+          "descripcion": "Centro puerta Sala 2"
+        },
+        {
+          "id": "sala2_puerta_fuera_vuelta",
+          "punto": [
+            18.35,
+            -14.35
+          ],
+          "descripcion": "Centro exterior puerta Sala 2"
+        },
+        {
+          "id": "sala2_subida_vuelta_1",
+          "punto": [
+            18.35,
+            -13.2
+          ],
+          "descripcion": "Centro subida Sala 2"
+        },
+        {
+          "id": "sala2_alineacion_horizontal_vuelta",
+          "punto": [
+            18.35,
+            -11.55
+          ],
+          "descripcion": "Centro alineacion horizontal Sala 2"
+        },
+        {
+          "id": "sala2_pasillo_horizontal_vuelta_1",
+          "punto": [
+            16.7,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo este"
+        },
+        {
+          "id": "sala2_pasillo_horizontal_vuelta_2",
+          "punto": [
+            10.4,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo este"
+        },
+        {
+          "id": "sala2_pasillo_horizontal_vuelta_3",
+          "punto": [
+            4.1,
+            -11.55
+          ],
+          "descripcion": "Centro hacia hub"
+        }
+      ]
+    },
+    "3": {
+      "ida": [
+        {
+          "id": "sala3_pasillo_horizontal_ida_1",
+          "punto": [
+            -4.6,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo oeste"
+        },
+        {
+          "id": "sala3_pasillo_horizontal_ida_2",
+          "punto": [
+            -9.15,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo oeste"
+        },
+        {
+          "id": "sala3_pasillo_horizontal_ida_3",
+          "punto": [
+            -13.7,
+            -11.55
+          ],
+          "descripcion": "Centro antes de bajada Sala 3"
+        },
+        {
+          "id": "sala3_alineacion_vertical_ida",
+          "punto": [
+            -15.35,
+            -11.55
+          ],
+          "descripcion": "Centro alineacion vertical Sala 3"
+        },
+        {
+          "id": "sala3_bajada_ida_1",
+          "punto": [
+            -15.35,
+            -13.2
+          ],
+          "descripcion": "Centro bajada Sala 3"
+        },
+        {
+          "id": "sala3_bajada_ida_2",
+          "punto": [
+            -15.35,
+            -14.35
+          ],
+          "descripcion": "Centro exterior puerta Sala 3"
+        },
+        {
+          "id": "sala3_puerta_centro_ida",
+          "punto": [
+            -15.35,
+            -14.89
+          ],
+          "descripcion": "Centro puerta Sala 3"
+        },
+        {
+          "id": "sala3_puerta_dentro_ida",
+          "punto": [
+            -15.35,
+            -16.1
+          ],
+          "descripcion": "Centro interior puerta Sala 3"
+        }
+      ],
+      "vuelta": [
+        {
+          "id": "sala3_puerta_dentro_vuelta",
+          "punto": [
+            -15.35,
+            -16.1
+          ],
+          "descripcion": "Centro interior puerta Sala 3"
+        },
+        {
+          "id": "sala3_puerta_centro_vuelta",
+          "punto": [
+            -15.35,
+            -14.89
+          ],
+          "descripcion": "Centro puerta Sala 3"
+        },
+        {
+          "id": "sala3_puerta_fuera_vuelta",
+          "punto": [
+            -15.35,
+            -14.35
+          ],
+          "descripcion": "Centro exterior puerta Sala 3"
+        },
+        {
+          "id": "sala3_subida_vuelta_1",
+          "punto": [
+            -15.35,
+            -13.2
+          ],
+          "descripcion": "Centro subida Sala 3"
+        },
+        {
+          "id": "sala3_alineacion_horizontal_vuelta",
+          "punto": [
+            -15.35,
+            -11.55
+          ],
+          "descripcion": "Centro alineacion horizontal Sala 3"
+        },
+        {
+          "id": "sala3_pasillo_horizontal_vuelta_1",
+          "punto": [
+            -13.7,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo oeste"
+        },
+        {
+          "id": "sala3_pasillo_horizontal_vuelta_2",
+          "punto": [
+            -9.15,
+            -11.55
+          ],
+          "descripcion": "Centro pasillo oeste"
+        },
+        {
+          "id": "sala3_pasillo_horizontal_vuelta_3",
+          "punto": [
+            -4.6,
+            -11.55
+          ],
+          "descripcion": "Centro hacia hub"
+        }
+      ]
+    }
+  },
+  "salas": [
+    {
+      "id": 1,
+      "nombre": "Sala 1",
+      "epoca": "Renacimiento",
+      "limites": {
+        "x_min_pared": -5.1,
+        "x_max_pared": 5.07,
+        "y_min_pared": -5.06998,
+        "y_max_pared": 4.83002
+      },
+      "puerta": {
+        "centro": [
+          -0.25,
+          -5.06998
+        ],
+        "fuera": [
+          -0.25,
+          -6.1
+        ],
+        "dentro": [
+          -0.25,
+          -4.2
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Sala 2",
+      "epoca": "Arte moderno",
+      "limites": {
+        "x_min_pared": 14.87,
+        "x_max_pared": 25.0,
+        "y_min_pared": -24.9,
+        "y_max_pared": -15.01
+      },
+      "puerta": {
+        "centro": [
+          18.35,
+          -15.01
+        ],
+        "fuera": [
+          18.35,
+          -14.35
+        ],
+        "dentro": [
+          18.35,
+          -16.1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Sala 3",
+      "epoca": "Postimpresionismo y Romanticismo",
+      "limites": {
+        "x_min_pared": -25.01,
+        "x_max_pared": -8.65,
+        "y_min_pared": -24.84,
+        "y_max_pared": -14.89
+      },
+      "puerta": {
+        "centro": [
+          -15.35,
+          -14.89
+        ],
+        "fuera": [
+          -15.35,
+          -14.35
+        ],
+        "dentro": [
+          -15.35,
+          -16.1
+        ]
+      }
+    }
+  ],
+  "cuadros": [
+    {
+      "id": 1,
+      "nombre": "Aurora clasica",
+      "descripcion": "Obra equilibrada y armoniosa.",
+      "sala": 1,
+      "x": 4.92,
+      "y": 1.89
+    },
+    {
+      "id": 2,
+      "nombre": "Luz y sombra",
+      "descripcion": "Contraste entre luz y oscuridad.",
+      "sala": 1,
+      "x": 4.92,
+      "y": -2.82
+    },
+    {
+      "id": 3,
+      "nombre": "Jardin de primavera",
+      "descripcion": "Paisaje natural tranquilo.",
+      "sala": 1,
+      "x": 2.47,
+      "y": 4.66
+    },
+    {
+      "id": 4,
+      "nombre": "Horizonte dorado",
+      "descripcion": "Escena luminosa.",
+      "sala": 1,
+      "x": -2.89,
+      "y": 4.66
+    },
+    {
+      "id": 5,
+      "nombre": "Retrato sereno",
+      "descripcion": "Retrato calmado.",
+      "sala": 1,
+      "x": -4.96,
+      "y": 2.84
+    },
+    {
+      "id": 6,
+      "nombre": "Memoria azul",
+      "descripcion": "Tonos frios y evocadores.",
+      "sala": 1,
+      "x": -4.96,
+      "y": -2.82
+    },
+    {
+      "id": 7,
+      "nombre": "Geometria interior",
+      "descripcion": "Formas abstractas.",
+      "sala": 2,
+      "x": 15.04,
+      "y": -17.53
+    },
+    {
+      "id": 8,
+      "nombre": "Ciudad abstracta",
+      "descripcion": "Movimiento urbano.",
+      "sala": 2,
+      "x": 15.04,
+      "y": -21.95
+    },
+    {
+      "id": 9,
+      "nombre": "Ecos del color",
+      "descripcion": "Juego cromatico.",
+      "sala": 2,
+      "x": 17.83,
+      "y": -24.74
+    },
+    {
+      "id": 10,
+      "nombre": "Ritmo moderno",
+      "descripcion": "Dinamismo visual.",
+      "sala": 2,
+      "x": 22.21,
+      "y": -24.74
+    },
+    {
+      "id": 11,
+      "nombre": "Reflejo urbano",
+      "descripcion": "Escena moderna.",
+      "sala": 2,
+      "x": 24.89,
+      "y": -21.95
+    },
+    {
+      "id": 12,
+      "nombre": "Tiempo suspendido",
+      "descripcion": "Concepto del tiempo.",
+      "sala": 2,
+      "x": 24.89,
+      "y": -17.25
+    },
+    {
+      "id": 13,
+      "nombre": "Bruma romantica",
+      "descripcion": "Ambiente melancolico.",
+      "sala": 3,
+      "x": -8.8,
+      "y": -17.54
+    },
+    {
+      "id": 14,
+      "nombre": "Montana silenciosa",
+      "descripcion": "Paisaje sereno.",
+      "sala": 3,
+      "x": -8.8,
+      "y": -21.45
+    },
+    {
+      "id": 15,
+      "nombre": "Nocturno profundo",
+      "descripcion": "Escena nocturna.",
+      "sala": 3,
+      "x": -12.66,
+      "y": -24.74
+    },
+    {
+      "id": 16,
+      "nombre": "Camino antiguo",
+      "descripcion": "Ruta clasica.",
+      "sala": 3,
+      "x": -20.72,
+      "y": -24.74
+    },
+    {
+      "id": 17,
+      "nombre": "Luz del crepusculo",
+      "descripcion": "Luz suave.",
+      "sala": 3,
+      "x": -24.89,
+      "y": -21.95
+    },
+    {
+      "id": 18,
+      "nombre": "Viento del norte",
+      "descripcion": "Movimiento natural.",
+      "sala": 3,
+      "x": -24.89,
+      "y": -17.45
+    },
+    {
+      "id": 19,
+      "nombre": "Silencio del valle",
+      "descripcion": "Profundidad tranquila.",
+      "sala": 3,
+      "x": -20.32,
+      "y": -15.24
+    }
+  ]
+}

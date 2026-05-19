@@ -34,7 +34,7 @@ This project implements core concepts from the **Advanced Telematic Applications
 - **HaoJie** - State of the Art & Abstract
 - **Bernard Ayala Pin** - Research & Future Work
 - **Yaiza** - Objectives & System Functionalities
-- **[Member 6]** - System Architecture & Networking
+- **Hoda** - System Architecture & Networking
 
 ## 📄 License
 This project is developed for academic purposes at **ETSISIL - Universidad Politécnica de Madrid**.
